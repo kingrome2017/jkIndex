@@ -1,599 +1,1470 @@
 ﻿<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="renderer" content="webkit|ie-comp|ie-stand">
-    <meta name="keywords" content=" "/>
-    <meta name="description" content=" "/>
-    <title>首页</title>
-    <link rel="stylesheet" href="css/style.css"/>
-<!--    <script src="js/jquery-1.8.2.min.js"></script>-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/tab.js"></script>
-    <script src="js/selectivizr.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>张家口教育咨询机构</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/pb.calendar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
-<!--顶部导航条-->
-    <header>
-        <div class="header">
-            <div class="container">
-                <div class="area-check">
-                    <div class="area-btn">
-                        <span>北京</span>
-                        <i></i>
-                    </div>
-                    <!--区块选择-->
-                    <div class="area-all">
-                            <h4>请选择所在的地区</h4>
-                            <table>
-                                <tr>
-                                    <th>A</th>
-                                    <td>
-                                        <span>安徽</span>
-                                        <span>澳门</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>B</th>
-                                    <td>
-                                        <span>北京</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>C</th>
-                                    <td>
-                                        <span>重庆</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>F</th>
-                                    <td>
-                                        <span>福建</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>G</th>
-                                    <td>
-                                        <span>广东</span>
-                                        <span>广西</span>
-                                        <span>贵州</span>
-                                        <span>甘肃</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>H</th>
-                                    <td>
-                                        <span>河北</span>
-                                        <span>河南</span>
-                                        <span>黑龙江</span>
-                                        <span>海南</span>
-                                        <span>湖北</span>
-                                        <span>湖南</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>J</th>
-                                    <td>
-                                        <span>江苏</span>
-                                        <span>吉林</span>
-                                        <span>江西</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>L</th>
-                                    <td>
-                                        <span>辽宁</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>N</th>
-                                    <td>
-                                        <span>内蒙古</span>
-                                        <span>宁夏</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>Q</th>
-                                    <td>
-                                        <span>青海</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>S</th>
-                                    <td>
-                                        <span>上海</span>
-                                        <span>山东</span>
-                                        <span>山西</span>
-                                        <span>四川</span>
-                                        <span>陕西</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>T</th>
-                                    <td>
-                                        <span>天津</span>
-                                        <span>台湾</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>X</th>
-                                    <td>
-                                        <span>西藏</span>
-                                        <span>香港</span>
-                                        <span>新疆</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>Y</th>
-                                    <td>
-                                        <span>云南</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>Z</th>
-                                    <td>
-                                        <span>浙江</span>
-                                    </td>
-                                </tr>
-                            </table>
+
+<body data-spy="scroll" data-target=".main_menu" data-offset="70">
+
+    <!--***********************
+    menu header part start
+  ************************-->
+    <div class="full_manu_header " id="menu_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9  col-sm-8 col-md-9">
+                    <div class="header_left">
+                        <ul>
+                            <!-- <li>Have any Trouble?</li> -->
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> (+880) 1234 567 890</li>
+                            <!-- <li class="eml"><i class="fa fa-envelope"></i>
+                                gyan@gmail.com</li> -->
+                        </ul>
+
                     </div>
                 </div>
-                <div class="nav-top">
-                    <ul>
-                        <li><a href="#">登陆</a>|</li>
-                        <li><a href="#">企业中心</a>|</li>
-                        <li><a href="#">个人中心</a>|</li>
-                        <li><a href="#">手机购物</a></li>
-                        <li><a href="#">会员俱乐部</a></li>
-                        <li><a href="#">网站导航</a></li>
-                    </ul>
+                <div class="col-lg-3  col-sm-4 col-md-3">
+                    <div class="header_right ">
+                        <ul>
+                            <!-- <li><a class="register" href="#">Register </a></li>
+                            <li><a class="login" href="#"> / Login</a></li> -->
+                        </ul>
+
+                    </div>
                 </div>
             </div>
+
         </div>
-    </header>
-    <!--logo-->
-    <section>
-        <div class="logo-line">
-            <div class="logo">
-                <a href="#"><img src="images/logo.png"/></a>
-            </div>
-            <div class="search">
-                <p class="search-line">
-                    <input type="text" placeholder=""/>
-                    <input type="button" value="搜索"/>
-                </p>
-                <p class="search-ul">
-                    <span><a href="#">感冒冲剂</a></span>
-                    <span><a href="#">香正气</a></span>
-                    <span><a href="#">感冒冲剂</a></span>
-                    <span class="no"><a href="#">香正气</a></span>
-                </p>
-            </div>
-            <div class="ask">
-                <a href="#"><img src="images/ask.png"/></a>
-            </div>
-        </div>
-    </section>
-    <!--中间导航-->
-    <section>
-        <div class="center-ul">
-            <div class="center-top-ul">
-                <div class="center-aside-ul">
-                    <div class="all-classify">
-                        <img src="images/all.png"/>
-                        <strong>全部分类</strong>
-                    </div>
-                    <div class="aside-ul">
-                        <div class="every-classify"><img src="images/icon1.png"/><a href="#"><span>医疗服务机构</span></a></div>
-                        <div class="every-classify"><img src="images/icon2.png"/><a href="#"><span>药学&nbsp;药品服务机构</span></a></div>
-                        <div class="every-classify"><img src="images/icon3.png"/><a href="#"><span>健康服务机构</span></a></div>
-                        <div class="every-classify"><img src="images/icon4.png"/><a href="#"><span>社区服务机构</span></a></div>
-                        <div class="every-classify"><img src="images/icon5.png"/><a href="#"><span>健康服务工作室</span></a></div>
-                        <div class="every-classify"><img src="images/icon6.png"/><a href="#"><span>中&nbsp;西医&nbsp;健康服务专家</span></a></div>
-                    </div>
-                </div>
-                <div class="classify-ul">
-                    <ul>
-                        <li><a href="#">首页</a></li>
-                        <li><a href="#">自我诊疗</a></li>
-                        <li><a href="#">健康百科</a></li>
-                        <li><a href="#">预约问诊</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--轮播-->
-    <section>
-        <div id="js_banner" class="fx_banner">
-            <ul id="js_banner_img" class="fx_banner_img clear">
-                <li>
-                    <div class="fx_banner_inner fx_grid_c1">
-                       <a href="#"> <img src="images/banner1.png" title="" alt=""/></a>
-                    </div>
-                </li>
-                <li>
-                    <div class="fx_banner_inner fx_grid_c1">
-                        <a href="#"> <img src="images/banner1.png" title="" alt=""/></a>
-                    </div>
-                </li>
-                <li>
-                    <div class="fx_banner_inner fx_grid_c1">
-                        <a href="#"> <img src="images/banner1.png" title="" alt=""/></a>
-                    </div>
-                </li>
-            </ul>
-            <div class="aside-user">
-                <p class="user-head"><img src="images/user.png"/></p>
-                <p class="user-state">Hi&nbsp;~你好！</p>
-                <ul>
-                    <li><a href="#">请登录</a></li>
-                    <li><a href="#">免费注册&gt;</a></li>
-                    <li><a href="#">退货保障</a></li>
-                    <li><a href="#">营业执照</a></li>
+    </div>
+    <!--********************
+      menu header part end
+    ********************-->
+
+    <!--********************
+     navbar-part start
+    ********************-->
+    <nav class="navbar main_menu navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <!-- <img src="images/logo.png" alt="logo"> -->
+                <a class="get-start" href="index.html">张家口教育咨询机构</a>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">About Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our_course.html">Our Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our_event.html">Our Events </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our_teacher.html">Our Teachers </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-info">Contact</a>
+                    </li> -->
                 </ul>
+                <!-- <a class="get-start" href="#">Get Started Now </a> -->
             </div>
-        </div>
-    </section>
-    <!--中间图标-->
-    <section>
-        <div class="icon">
-            <div class="iconAll icon-all1">
-                <a href="#" target="_blank">
-                    <p class="icon-img"><span class="ICON1"></span></p>
-                    <p class="icon-text">基因检测</p>
-                </a>
-            </div>
-            <div class="iconAll icon-all2">
-                <a href="#" target="_blank">
-                    <p class="icon-img"><span class="ICON2"></span></p>
-                    <p class="icon-text">海外就医</p>
-                </a>
-            </div>
-            <div class="iconAll icon-all3">
-                <a href="#" target="_blank">
-                    <p class="icon-img"><span class="ICON3"></span></p>
-                    <p class="icon-text">挂号陪诊</p>
-                </a>
-            </div>
-            <div class="iconAll icon-all4">
-                <a href="#" target="_blank">
-                    <p class="icon-img"><span class="ICON4"></span></p>
-                    <p class="icon-text">辅助生育</p>
-                </a>
-            </div>
-            <div class="iconAll icon-all5">
-                <a href="#" target="_blank">
-                    <p class="icon-img"><span class="ICON5"></span></p>
-                    <p class="icon-text">丙肝治愈</p>
-                </a>
-            </div>
-            <div class="iconAll icon-all6">
-                <a href="#" target="_blank">
-                    <p class="icon-img"><span class="ICON6"></span></p>
-                    <p class="icon-text">医药馆</p>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!--知名医院-->
-    <section>
-        <div class="famous">
-            <div class="famous-title">
-                <strong><span>知名医院</span></strong><small>Famous&nbsp;Hospital</small>
-            </div>
-            <div class="famous-content">
-                <div class="famous-hos-l">
-                    <div class="hos-show">
-                        <p><img src="images/hospital1.png"/></p>
-                        <p class="hos-show-tit"><span>三级甲等</span><span class="class">全科类</span></p>
-                    </div>
-                    <div class="hos-state">
-                        <p class="hos-state-tit">中国人民解放军总医院</p>
-                        <p class="hos-state-desc">中国人民解放军总医院（301医院）创建于1953年，是集医疗、保健、教学、科研于一体的大型现代化综合性医院。</p>
-                        <p class="hos-check"><input type="button" value="查看医院"/></p>
-                    </div>
-                </div>
-                <div class="famous-hos-r">
-                    <div class="hos-show">
-                        <p><img src="images/hospital2.png"/></p>
-                        <p class="hos-show-tit"><span>三级甲等</span><span class="class">全科类</span></p>
-                    </div>
-                    <div class="hos-state">
-                        <p class="hos-state-tit">中国人民解放军总医院</p>
-                        <p class="hos-state-desc">中国人民解放军总医院（301医院）创建于1953年，是集医疗、保健、教学、科研于一体的大型现代化综合性医院。</p>
-                        <p class="hos-check"><input type="button" value="查看医院"/></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--明星医生-->
-    <section>
-        <div class="doc-container">
-            <div class="container-fluid">
-                <div class="doc-title">
-                    <strong><span>明星医生</span></strong><small>Star&nbsp;Doctor</small>
-                </div>
-                <div class="doc-state doc-l">
-                    <div class="doc-state-l">
-                        <p><img src="images/doctor.png"/></p>
-                        <p class="doc-ask">已有<span>1325</span>人咨询</p>
-                    </div>
-                    <div class="doc-state-r">
-                        <p><strong>何药师</strong><small>北京第三人民医院</small></p>
-                        <p class="doc-person">栗震亚，男，1981年华西医科大学口腔医学院研究生毕业，硕士。国际牙医师学院院士，甘肃省优秀专家。主任医师，教授，兰州大学硕士研究生导师。</p>
-                        <div class="doc-consult">
-                            <p class="video">视频咨询</p>
-                            <p class="online">在线咨询</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="doc-state doc-r">
-                    <div class="doc-state-l">
-                        <p><img src="images/doctor.png"/></p>
-                        <p class="doc-ask">已有<span>1325</span>人咨询</p>
-                    </div>
-                    <div class="doc-state-r">
-                        <p><strong>何药师</strong><small>北京第三人民医院</small></p>
-                        <p class="doc-person">栗震亚，男，1981年华西医科大学口腔医学院研究生毕业，硕士。国际牙医师学院院士，甘肃省优秀专家。主任医师，教授，兰州大学硕士研究生导师。</p>
-                        <div class="doc-consult">
-                            <p class="video">视频咨询</p>
-                            <p class="online">在线咨询</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--代客服务-->
-    <section>
-        <div class="service">
-            <div class="ser-hos">
-                <div class="hos-title">
-                    <strong><span>代客服务</span></strong><small>Star&nbsp;Hospital</small>
-                </div>
-                <div class="hos-ul">
-                    <ul>
-                        <li><a href="#">按摩科</a></li>
-                        <li><a href="#">神经科</a></li>
-                        <li><a href="#">妇产科</a></li>
-                        <li><a href="#">麻醉科</a></li>
-                        <li><a href="#">骨科</a></li>
-                        <li class="more"><a href="#">更多</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="ser-content">
-                <div class="service-img">
-                    <img src="images/service.png"/>
-                </div>
-                <div class="service-area">
-                    <div class="ser-ul">
-                        <a href="#">
-                            <div class="ser-area-u">
-                                <p class="ser">医院医生</p>
-                                <p class="ser-state">名医诊疗中心</p>
-                                <img src="images/img1.png"/>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="ser-area-u">
-                                <p class="ser">体检机构</p>
-                                <p class="ser-state">养生从现在开始</p>
-                                <img src="images/img2.png"/>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="ser-area-u">
-                                <p class="ser">整形美容</p>
-                                <p class="ser-state">专家整形优质服务</p>
-                                <img src="images/img3.png"/>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="ser-area-u">
-                                <p class="ser">养老机构</p>
-                                <p class="ser-state">优质体验特级服务</p>
-                                <img src="images/img4.png"/>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="service-area">
-                    <div class="ser-ul2">
-                        <a href="#">
-                            <div class="ser-area-btm">
-                                <p class="ser">挂号陪诊</p>
-                                <p class="ser-state">快速挂号直通全国重点医院</p>
-                                <img src="images/img5.png"/>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="ser-area-btm">
-                                <p class="ser">口腔诊所</p>
-                                <p class="ser-state">爱牙护齿全民参与</p>
-                                <img src="images/img6.png"/>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="ser-area-btm">
-                                <p class="ser">母婴关爱</p>
-                                <p class="ser-state">宝宝开心妈妈放心</p>
-                                <img src="images/img7.png"/>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="ser-area-btm">
-                                <p class="ser">心理工作室</p>
-                                <p class="ser-state">心理咨询体系解决各类问题</p>
-                                <img src="images/img8.png"/>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--医疗健康服务-->
-    <section>
-        <div class="health">
-            <div class="ser-hos">
-                <div class="hos-title">
-                    <strong><span>医疗健康服务</span></strong><small>Health&nbsp;Care&nbsp;Services</small>
-                </div>
-                <div class="hos-ul">
-                    <ul>
-                        <li><a href="#">按摩科</a></li>
-                        <li><a href="#">神经科</a></li>
-                        <li><a href="#">妇产科</a></li>
-                        <li><a href="#">麻醉科</a></li>
-                        <li><a href="#">骨科</a></li>
-                        <li class="more"><a href="#">更多</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="ser-content">
-                <div class="service-img">
-                    <img src="images/health.png"/>
-                </div>
-                <div class="health-area">
-                    <div class="health-ul-up">
-                        <a href="#">
-                            <div class="health-up">
-                                <p><img src="images/health1.png"/></p>
-                                <p class="produce">三诺安稳血糖试纸血糖仪试纸</p>
-                                <p class="price"><span class="now-price">&yen;699</span><span class="past-price">/12600</span></p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="health-up">
-                                <p><img src="images/health2.png"/></p>
-                                <p class="produce">快乐职场体验套餐</p>
-                                <p class="price"><span class="now-price">&yen;499</span><span class="past-price">/12600</span></p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="health-up">
-                                <p><img src="images/health3.png"/></p>
-                                <p class="produce">钙尔奇碳酸钙</p>
-                                <p class="price"><span class="now-price">&yen;49</span><span class="past-price">/100</span></p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="health-up">
-                                <p><img src="images/health4.png"/></p>
-                                <p class="produce">儿童肺癌基因检测</p>
-                                <p class="price"><span class="now-price">&yen;499</span><span class="past-price">/12600</span></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="health-area">
-                    <div class="health-ul-up2">
-                        <a href="#">
-                            <div class="health-btm">
-                                <p><img src="images/health5.png"/></p>
-                                <p class="produce">孝敬父母双人体验套餐</p>
-                                <p class="price"><span class="now-price">&yen;499</span><span class="past-price">/12600</span></p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="health-btm">
-                                <p><img src="images/health6.png"/></p>
-                                <p class="produce">快乐职场体验套餐</p>
-                                <p class="price"><span class="now-price">&yen;99</span><span class="past-price">/12600</span></p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="health-btm">
-                                <p><img src="images/health7.png"/></p>
-                                <p class="produce">中老年感恩超值套餐</p>
-                                <p class="price"><span class="now-price">&yen;499</span><span class="past-price">/100</span></p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="health-btm">
-                                <p><img src="images/health8.png"/></p>
-                                <p class="produce">欧姆龙电子血压计HEM-7052</p>
-                                <p class="price"><span class="now-price">&yen;499</span><span class="past-price">/12600</span></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--热点资讯-->
-    <section>
-        <div class="hot">
-            <div class="ser-hos">
-                <div class="hot-title">
-                    <strong><span>热点资讯</span></strong><small>Hot&nbsp;Information</small>
-                </div>
-                <div class="hos-ul">
-                    <ul>
-                        <li><a href="#">更多</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="hot-content">
-                <div class="service-img">
-                    <img src="images/hot-img.png"/>
-                </div>
-                <div class="hot-information">
-                    <div class="information information-l">
-                        <strong>3招教你辨别筷子是否致癌</strong>
-                        <ul>
-                            <li class="first-li"><a href="#"><span class="dateTime">2015-5-10</span>保健荐读：过期啤酒妙之你别筷子是否致癌</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>外科 脑震荡，秘！最是远离保健品</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>皮肤 痤疮，绿豆疗皮敏患必备治指南</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>肿瘤 喉癌反复发在这样治肾盂癌病</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>保健荐读：过期啤酒妙用别筷子是否致癌</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>外科脑震荡，中谱便秘最是远离保健品</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>皮肤痤疮经实惠治疗法 皮敏患必备治指南</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>肿瘤 | 喉癌反复规医院竟这样治肾盂癌病</a></li>
-                        </ul>
-                    </div>
-                    <div class="information information-r">
-                        <strong>3招教你辨别筷子是否致癌</strong>
-                        <ul>
-                            <li class="first-li"><a href="#"><span class="dateTime">2015-5-10</span>保健荐读：过期啤酒妙之你别筷子是否致癌</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>外科 脑震荡，秘！最是远离保健品</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>皮肤 痤疮，绿豆疗皮敏患必备治指南</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>肿瘤 喉癌反复发在这样治肾盂癌病</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>保健荐读：过期啤酒妙用别筷子是否致癌</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>外科脑震荡，中谱便秘最是远离保健品</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>皮肤痤疮经实惠治疗法 皮敏患必备治指南</a></li>
-                            <li><a href="#"><span class="dateTime">2015-5-10</span>肿瘤 | 喉癌反复规医院竟这样治肾盂癌病</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--底部导航-->
-    <nav>
-        <div class="footer-nav">
-            <ul class="footer-container">
-                <li><a href="#">首页</a></li>
-                <li><a href="#">关于本站</a></li>
-                <li><a href="#">荣誉证书</a></li>
-                <li><a href="#">媒体报道</a></li>
-                <li><a href="#">联系我们</a></li>
-                <li><a href="#">人才招聘</a></li>
-                <li><a href="#">友情链接</a></li>
-            </ul>
         </div>
     </nav>
-    <!--版权信息-->
-    <footer>
-        <div class="copyright">
-            <p>Copyright@copy;2011-2016&nbsp;仁和药房网（北京）医药科技有限公司版权所有，并保留所有权利。互联网药品交易服务证：京C20160005号</p>
-            <p>京公网安备 11010602100232号  电信与信息服务业务经营许可证：京ICP证041574号 京CF备10054530号-1</p>
+    <!--********************
+     navbar-part end
+    ********************-->
+
+    <!--********************
+     banner part Start
+    ********************-->
+    <section id="banner">
+        <div class="full_slider">
+            <div class="slider">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="bnr_text">
+                                <h1><span>Let’s Learn</span> For Bright Future</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus comodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <!-- <a class="ac" href="our_course.html">Start a Course</a> -->
+                                <!-- <a href="index.html">Take a Tour</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider slider1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="bnr_text">
+                                <h1><span>Let’s Learn</span> For Bright Future</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus comodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <!-- <a class="active" href="our_course.html">Start a Course</a> -->
+                                        <a href="#">Take a Tour</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-<script type="text/javascript" src="js/my.js"></script>
+    </section>
+    <!--********************
+     banner part end
+    ********************-->
+
+
+    <!--********************
+     Support part Start
+    **********************-->
+    <!-- <section id="support">
+        <div class="container support">
+            <div class="row">
+                <div class="col-lg-4 col-md-4  px-0">
+                    <div class="online">
+                        <img src="images/online_class_icon.png" alt="online_class_icon">
+                        <div class="text-center">
+                            <h4>Online Classes</h4>
+                            <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4  px-0">
+                    <div class="online ">
+                        <img src="images/online_support_icon.png" alt="online_support_icon">
+                        <div class="text-center">
+                            <h4>Online &amp; Offline Support</h4>
+                            <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-4 px-0">
+                    <div class="online ">
+                        <img src="images/lifetime_support_icon.png" alt="lifetime_support_icon">
+                        <div class="text-center">
+                            <h4>Online Classes</h4>
+                            <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!--********************
+     Support part end
+  **********************-->
+
+    <!--********************
+     About part Start
+  **********************-->
+    <section id="about">
+        <div class="about_part">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section_title">
+                            <h1>关于我们</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="slider_about">
+                            <div class="about_slider">
+                                <div class="">
+                                    <img src="images/aboutSlider1.jpeg" class="img-fluid" alt="aboutSlider1">
+                                </div>
+                            </div>
+                            <div class="about_slider">
+                                <div class="">
+                                    <img src="images/aboutSlider3.jpeg" class="img-fluid" alt="aboutSlider2">
+                                </div>
+                            </div>
+                            <div class="about_slider">
+                                <div class="">
+                                    <img src="images/aboutSlider1.jpeg" class="img-fluid" alt="aboutSlider3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about_text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus coodo vivera maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <p>et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="button">
+                                        <!-- <a class="active" href="about_us.html">Know More</a> -->
+                                        <!-- <a href="our_course.html">Enroll Now</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--********************
+     About part end
+    **********************-->
+
+
+    <!--********************
+     Counter  part Start
+    **********************-->
+    <!-- <section id="counter_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                    <div class="counter_item">
+                        <h3 class="counter">567</h3>
+                        <h5>Teachers</h5>
+                        <img src="images/counterPartBorderBottom.png" alt="border Bottom">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                    <div class="counter_item">
+                        <h3 class="counter">1758</h3>
+                        <h5>Students</h5>
+                        <img src="images/counterPartBorderBottom.png" alt="border Bottom">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                    <div class="counter_item">
+                        <h3 class="counter">102</h3>
+                        <h5>Offline Courses</h5>
+                        <img src="images/counterPartBorderBottom.png" alt="border Bottom">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                    <div class="counter_item">
+                        <h3 class="counter">57</h3>
+                        <h5>Online Classes</h5>
+                        <img src="images/counterPartBorderBottom.png" alt="border Bottom">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--********************
+     Counter  part end
+    **********************-->
+
+
+    <!--********************
+     Our Courses part start
+    **********************-->
+    <!-- <section id="our_course">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title">
+                        <h1>Our Courses</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row course-slider">
+                <div class="col-lg-12 ">
+                    <div class="course-one">
+                        <div class="course-banner">
+                            <img src="images/ourcourse1.png" class="w-100" alt="1">
+                            <div class="course-banner-overlay">
+                                <a href="#"> <i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="trainer_pro_details">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="Pro_img">
+                                        <img src="images/ourcourse1Image.png" alt="profile pic">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <div class="profile">
+                                        <p>Conduct by:</p><br>
+                                        <h5>Sujon Shaha</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pl-0">
+                                    <div class="pro-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                        <p>4.8 Ratings</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="crs-details">
+                                    <h4>Advance Graphic Design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4  col-4  p-0">
+                                <div class="crs_footer">
+                                    <p><span>Course</span> Duration</p>
+                                    <p class="m_name">5 Months</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Course Fee</p>
+                                    <p class="m_name">375 USD</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Total Classes</p>
+                                    <p class="m_name">40 Classes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="enroll">
+                            <a href="our_course.html">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 ">
+                    <div class="course-one">
+                        <div class="course-banner">
+                            <img src="images/ourcourse2.png" class="w-100" alt="ourcourse2">
+                            <div class="course-banner-overlay">
+                                <a href="#"> <i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="trainer_pro_details">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="Pro_img">
+                                        <img src="images/ourcourse2Image.png" alt=" profile pic">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <div class="profile">
+                                        <p>Conduct by:</p><br>
+                                        <h5>Joha Jichalvina</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pl-0">
+                                    <div class="pro-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                        <p>4.8 Ratings</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="crs-details">
+                                    <h4> Web Development</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4  col-4  p-0">
+                                <div class="crs_footer">
+                                    <p><span>Course</span> Duration</p>
+                                    <p class="m_name">5 Months</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Course Fee</p>
+                                    <p class="m_name">375 USD</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Total Classes</p>
+                                    <p class="m_name">40 Classes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="enroll">
+                            <a href="our_course.html">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 ">
+                    <div class="course-one">
+                        <div class="course-banner">
+                            <img src="images/Our_Courses_page_04.png" class="w-100" alt="Our_Courses_page_04">
+                            <div class="course-banner-overlay">
+                                <a href="#"> <i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="trainer_pro_details">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="Pro_img">
+                                        <img src="images/ourcourse4Image.png" alt="profile pic">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <div class="profile">
+                                        <p>Conduct by:</p><br>
+                                        <h5>Sabeka Irin</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pl-0">
+                                    <div class="pro-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                        <p>4.8 Ratings</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="crs-details">
+                                    <h4>Advance Web Design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4  col-4  p-0">
+                                <div class="crs_footer">
+                                    <p><span>Course</span> Duration</p>
+                                    <p class="m_name">5 Months</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Course Fee</p>
+                                    <p class="m_name">375 USD</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Total Classes</p>
+                                    <p class="m_name">40 Classes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="enroll">
+                            <a href="our_course.html">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 ">
+                    <div class="course-one">
+                        <div class="course-banner">
+                            <img src="images/ourcourse3.png" class="w-100" alt="Our_Courses_page_04">
+                            <div class="course-banner-overlay">
+                                <a href="#"> <i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="trainer_pro_details">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="Pro_img">
+                                        <img src="images/ourcourse3Image.png" alt="1 profile pic">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <div class="profile">
+                                        <p>Conduct by:</p><br>
+                                        <h5>Johan Deo</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pl-0">
+                                    <div class="pro-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                        <p>4.8 Ratings</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="crs-details">
+                                    <h4>SEO/Online Marketing</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4  col-4  p-0">
+                                <div class="crs_footer">
+                                    <p><span>Course</span> Duration</p>
+                                    <p class="m_name">5 Months</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Course Fee</p>
+                                    <p class="m_name">375 USD</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Total Classes</p>
+                                    <p class="m_name">40 Classes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="enroll">
+                            <a href="our_course.html">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 ">
+                    <div class="course-one">
+                        <div class="course-banner">
+                            <img src="images/Ethical Hacking.jpg" class="w-100" alt="Our_Courses_page_04">
+                            <div class="course-banner-overlay">
+                                <a href="#"> <i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="trainer_pro_details">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="Pro_img">
+                                        <img src="images/Conductor 02.png" alt="profile pic">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <div class="profile">
+                                        <p>Conduct by:</p><br>
+                                        <h5>Shamima Nipa</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pl-0">
+                                    <div class="pro-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                        <p>4.8 Ratings</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="crs-details">
+                                    <h4>Ethical Hacking</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4  col-4  p-0">
+                                <div class="crs_footer">
+                                    <p><span>Course</span> Duration</p>
+                                    <p class="m_name">5 Months</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Course Fee</p>
+                                    <p class="m_name">375 USD</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Total Classes</p>
+                                    <p class="m_name">40 Classes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="enroll">
+                            <a href="our_course.html">Enroll Now</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12 ">
+                    <div class="course-one">
+                        <div class="course-banner">
+                            <img src="images/3D Animation.jpg" class="w-100" alt="Our_Courses_page_04">
+                            <div class="course-banner-overlay">
+                                <a href="#"> <i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="trainer_pro_details">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="Pro_img">
+                                        <img src="images/Conductor 01.png" alt="profile pic">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <div class="profile">
+                                        <p>Conduct by:</p><br>
+                                        <h5>Alexaia Alex</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pl-0">
+                                    <div class="pro-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                        <p>4.8 Ratings</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="crs-details">
+                                    <h4>3D Animation</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4  col-4  p-0">
+                                <div class="crs_footer">
+                                    <p><span>Course</span> Duration</p>
+                                    <p class="m_name">5 Months</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Course Fee</p>
+                                    <p class="m_name">375 USD</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-4 p-0">
+                                <div class="crs_footer">
+                                    <p>Total Classes</p>
+                                    <p class="m_name">40 Classes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="enroll">
+                            <a href="our_course.html">Enroll Now</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--********************
+     Our Courses part end
+    **********************-->
+
+
+    <!--*****************************
+     Our Event part start
+    **********************-->
+    <!-- <section id="event">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title">
+                        <h1>Our Events</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6  col-md-12">
+                       
+                        <div id="pb-calendar" class="pb-calendar">
+                        	<h2>Calendar of the Month of</h2>
+                        </div>
+                    </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="event_bg">
+                        <div class="row event-details-top">
+                            <div class="col-lg-5  col-sm-5 ">
+                                <div class="event-img">
+                                    <img src="images/event2.png" class="w-100" alt="ux">
+                                    <div class="event-img-text">
+                                        <p>15 <span>Nov</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-sm-7">
+                                <div class="event-text">
+                                    <h3>UI/UX Bootcamp Meetup 2019</h3>
+                                    <p>Lorem ipsum dolor sit amet, consecteturng elit sed do eiusmod temor</p>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <P class="sem_title"> Seminar Room</P>
+                                    <i class="far fa-clock  icon"></i>
+                                    <P class="sem_title"> 9:00 AM - 1:00 PM</P>
+                                    <div class="">
+                                        <a href="event_details.html">Join Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event_bg">
+                        <div class="row event-details-top">
+                            <div class="col-lg-5  col-sm-5">
+                                <div class="event-img1">
+                                    <img src="images/event2.png" class="w-100" alt="ux">
+                                    <div class="event-img1-text">
+                                        <p>25 <span>Nov</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-sm-7">
+                                <div class="event-text">
+                                    <h3>UI/UX Bootcamp Meetup 2019</h3>
+                                    <p>Lorem ipsum dolor sit amet, consecteturng elit sed do eiusmod temor</p>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <P class="sem_title"> Seminar Room</P>
+                                    <i class="far fa-clock  icon"></i>
+                                    <P class="sem_title"> 9:00 AM - 1:00 PM</P>
+                                    <div class="">
+                                        <a href="event_details.html">Join Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--*****************************
+     Our Event part end
+    **********************-->
+
+
+    <!--*****************************
+     Our Testimonial & FAQ part start
+    *******************************-->
+    <section id="test-faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title">
+                        <h1>评价反馈</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 ">
+                    <div class="row test_full_slider">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="test-image">
+                                        <div class="faq-img">
+                                            <img src="images/eventSlider1.jpeg" class="img-fluid w-100" alt="eventSlider1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="test-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiudr incididunt ut labore et dolore magna aliqua. Ut enim a minim eniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea cmmodo consequat.</p>
+                                        <h3>Tahsina Michalvina <span>- Satisfied Student</span></h3>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="test-image">
+                                        <div class="faq-img">
+                                            <img src="images/eventSlider2.jpeg" class="img-fluid w-100" alt="Testimonial%2002">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="test-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiudr incididunt ut labore et dolore magna aliqua. Ut enim a minim eniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea cmmodo consequat.</p>
+                                        <h3>Shamima Sultana <span>- Satisfied Student</span></h3>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="test-image">
+                                        <div class="faq-img">
+                                            <img src="images/eventSlider3.jpeg" class="img-fluid w-100" alt="images/Testimonial%2003">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="test-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiudr incididunt ut labore et dolore magna aliqua. Ut enim a minim eniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea cmmodo consequat.</p>
+                                        <h3>Sabeka Aney <span>- Satisfied Student</span></h3>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-12"> -->
+                    <!-- <div class="test-accordian">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                                        Why we join on your school? <i class="fa fa-angle-right "></i>
+                                    </button>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        What facilities we will get? <i class="fa fa-angle-right "></i>
+                                    </button>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Why we join on your school? <i class="fa fa-angle-right "></i>
+                                    </button>
+
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+
+    </section>
+
+    <!--******************************
+     Our Testimonial & FAQ  part end
+    *******************************-->
+
+
+    <!--*********************************
+          Our Teacher part start
+    *******************************-->
+    <!-- <section id="teacher">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title">
+                        <h1>Our Teacher’s</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row teacher-slide">
+                <div class="col-lg-12 ">
+                    <div class="teacher-prof">
+                        <div class="techer-img">
+                            <img src="images/teacher2.png" alt="teacher1" class="img-fluid  w-100">
+                        </div>
+                        <div class="teacher-text">
+                            <h3>Shamima Sultana</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid ">
+                        </div>
+                        <div class="teacher-text-hover">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                            <h3>Shamima Sultana</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid ">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 ">
+                    <div class="teacher-prof">
+                        <div class="techer-img">
+                            <img src="images/teacher3.png" alt="teacher1" class="img-fluid w-100">
+                        </div>
+                        <div class="teacher-text">
+                            <h3>Sujon Shaha</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid">
+                        </div>
+                        <div class="teacher-text-hover">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                            <h3>Sujon Shaha</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 ">
+                    <div class="teacher-prof">
+                        <div class="techer-img">
+                            <img src="images/teacher4.png" alt="teacher1" class="img-fluid w-100">
+                        </div>
+                        <div class="teacher-text">
+                            <h3> Rouhe Deo</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid">
+                        </div>
+                        <div class="teacher-text-hover">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                            <h3>Rouhe Deo</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 ">
+                    <div class="teacher-prof">
+                        <div class="techer-img">
+                            <img src="images/teacher1.png" alt="teacher1" class="img-fluid w-100">
+                        </div>
+                        <div class="teacher-text">
+                            <h3>Alexander Alex</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid">
+                        </div>
+                        <div class="teacher-text-hover">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                            <h3>Alexander Alex</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 ">
+                    <div class="teacher-prof">
+                        <div class="techer-img">
+                            <img src="images/Teacher 05.jpg" alt="teacher1" class="img-fluid w-100">
+                        </div>
+                        <div class="teacher-text">
+                            <h3>Edward Leo</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid">
+                        </div>
+                        <div class="teacher-text-hover">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                            <h3>Edward Leo</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 ">
+                    <div class="teacher-prof">
+                        <div class="techer-img">
+                            <img src="images/Teacher 08.jpg" alt="teacher1" class="img-fluid w-100">
+                        </div>
+                        <div class="teacher-text">
+                            <h3>Shohan Ean</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid">
+                        </div>
+                        <div class="teacher-text-hover">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                            <h3>Shohan Ean</h3>
+                            <p>Sr. Faculty Member</p>
+                            <img src="images/counterPartBorderBottom.png" alt="border" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--*********************************
+            Our Teacher part end
+    *******************************-->
+
+
+    <!--*********************************
+    Our Blog header part start
+    *******************************-->
+    <section id="blog_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title">
+                        <h1>证书展示</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--*********************************
+    Our Blog header part end
+    *******************************-->
+
+
+    <!--*********************************
+     Our Blog Galarry part start
+    *******************************-->
+    <section id="blog_gal">
+        <div class="blog-galarry">
+            <div class="container">
+                <div class="gal-top">
+                    <div class="row">
+                        <div class="col-lg-6 ">
+                            <div class="blog_item">
+                                <img src="images/eventSlider1.jpeg" class="img-fluid w-100 " alt="blog img 1">
+                                <div class="blog-gtop1">
+                                    <div class="blog_gtop_text ">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        </ul>
+                                        <div class="bgal-text">
+                                            <!-- <h4> <a href="blog_details.html"> “Education is the Backbone of a nation” It’s Proven</a></h4>
+                                            <a href="#">https://education.com</a> -->
+                                        </div>
+                                        <div class="g-top1-footer">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="date">
+                                                        <p>
+                                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                            Published Date: 26 October 2018
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="view">
+                                                        <p><i class="fa fa-eye" aria-hidden="true"></i> 2.5k Views</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="share">
+                                                        <p><i class="fa fa-share" aria-hidden="true"></i> 2.5k Shares</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="blog_item">
+                                <img src="images/eventSlider3.jpeg" class="img-fluid w-100" alt="blog img 1">
+                                <div class="blog-gtop1">
+                                    <div class="blog_gtop_text">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        </ul>
+                                        <div class="bgal-text">
+                                            <!-- <h4> <a href="blog_details.html"> “Education is the Backbone of a nation” It’s Proven</a></h4>
+
+                                            <a href="#">https://education.com</a> -->
+                                        </div>
+                                        <div class="g-top1-footer">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="date">
+                                                        <p><i class="fa fa-calendar" aria-hidden="true"></i> Published Date: 26 October 2018</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="view">
+                                                        <p><i class="fa fa-eye" aria-hidden="true"></i> 2.5k Views</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="share">
+                                                        <p><i class="fa fa-share" aria-hidden="true"></i> 2.5k Shares</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- =============gal bottom===============-->
+                <div class="gal-bottom">
+                    <div class="row">
+                        <div class="col-lg-3  col-sm-6">
+                            <div class="blog_item">
+                                <img src="images/aboutSlider1.jpeg" class="img-fluid w-100" alt="blog img 1">
+                                <div class="btm-text1">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                    <div class="bgal-text">
+                                        <!-- <h4> Traditional Elementary Education</h4>
+                                        <p>https://education.com</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="blog_item">
+                                <img src="images/aboutSlider2.jpeg" class="img-fluid  w-100" alt="blog img 1">
+                                <div class="btm-text1">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                    <div class="bgal-text">
+                                        <!-- <h4> Ideas and tips on using blogs </h4>
+                                        <p>https://education.com</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="blog_item">
+                                <img src="images/aboutSlider3.jpeg" class="img-fluid w-100" alt="blog img 1">
+                                <div class="btm-text1">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                    <div class="bgal-text">
+                                        <!-- <h4> Nominated best blogs in 2018</h4>
+                                        <p>https://education.com</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="blog_item">
+                                <img src="images/WechatIMG58.jpeg" class="img-fluid w-100" alt="blog img 1">
+                                <div class="btm-text1">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                    <div class="bgal-text">
+                                        <!-- <h4> Blogs for Education &amp; Knowledge</h4>
+                                        <p>https://education.com</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--*********************************
+         Our Blog Galarry part end
+    *******************************-->
+
+
+    <!--*********************************
+         Our ContactInfo part start
+    *******************************-->
+    <section id="contact-info">
+        <div class="container">
+            <div class="content-text">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="cheader-left">
+                                <p style="color: #ffffff">张家口教育培训机构</p>
+                            <!-- <a href="#"><img src="images/footerlogo.png" alt="footer logo"></a> -->
+                        </div>
+                        <div class="c-text-left">
+                            <p class="nipa">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullmco laboris nisi ut aliquip ex ea.</p>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-sm-12">
+                        <div class="cheader-center">
+                            <!-- <h3>Quick Links</h3> -->
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 pl-md-3  col-sm-6 pl-sm-5 ">
+                                <!-- <div class="c-text-menu1">
+                                    <ul>
+                                        <li><a href="index.html">Home </a></li>
+                                        <li><a href="about_us.html">About us</a></li>
+                                        <li><a href="#">Terms &amp; Conditions</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                        <li><a href="#">FAQ’s</a></li>
+                                    </ul>
+                                </div> -->
+                            </div>
+                            <div class="col-lg-5 col-md-5 pl-md-0 col-sm-6 ">
+                                <div class="c-text-menu1">
+                                    <!-- <ul>
+                                        <li><a href="our_teacher.html">Our Teachers</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="blog_details.html">Latest News</a></li>
+                                        <li><a href="#">Succes Stories</a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cheader-center">
+                            <h3>Contact Informations</h3>
+                        </div>
+                        <div class="c-text-location">
+                            <div class="row">
+                                <div class="col-lg-3  col-md-3">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-home"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-phone"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-9  col-md-9">
+                                    <div class="address">
+                                        <p class="address_title">Location</p>
+                                        <p>张家口市宣化区</p>
+                                        <p class="address_title">Phone</p>
+                                        <p>+880 1234 567 890, 02 0987 654</p>
+                                        <p class="address_title">E-mail</p>
+                                        <p>learning@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--*********************************
+          Our ContactInfo part end
+    *******************************-->
+
+    <!--*********************************
+     Our ContactInfo image part Start
+    *******************************-->
+    <section id="contact-info-img">
+        <div class="row footer_slider">
+            <div class="item-img">
+                <div class="footer_img">
+                    <img src="images/blogsmall1.png" alt="blogsmall1" class="img-fluid">
+                    <div class="overlay_social">
+                        <a href="#">Instagram Photos </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-img">
+                <div class="footer_img">
+                    <img src="images/blogsmall2.png" alt="blogsmall2" class="img-fluid">
+                    <div class="overlay_social">
+                        <a href="#">Instagram Photos </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-img">
+                <div class="footer_img">
+                    <img src="images/blogsmall3.png" alt="blogsmall3" class="img-fluid">
+                    <div class="overlay_social">
+                        <a href="#">Instagram Photos </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-img">
+                <div class="footer_img">
+                    <img src="images/blogsmall4.png" alt="blogsmall4" class="img-fluid">
+                    <div class="overlay_social">
+                        <a href="#">Instagram Photos </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-img">
+                <div class="footer_img">
+                    <img src="images/blogsmall2.png" alt="blogsmall2" class="img-fluid">
+                    <div class="overlay_social">
+                        <a href="#">Instagram Photos </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-img">
+                <div class="footer_img">
+                    <img src="images/blogsmall3.png" alt="blogsmall3" class="img-fluid">
+                    <div class="overlay_social">
+                        <a href="#">Instagram Photos </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-img">
+                <div class="footer_img">
+                    <img src="images/blogsmall1.png" alt="blogsmall1" class="img-fluid">
+                    <div class="overlay_social">
+                        <a href="#">Instagram Photos </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-img">
+                <div class="footer_img">
+                    <img src="images/blogsmall4.png" alt="blogsmall1" class="img-fluid">
+                    <div class="overlay_social">
+                        <a href="#">Instagram Photos </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--*********************************
+     Our ContactInfo image part end
+    *******************************-->
+
+
+    <!--*********************************
+       Our footer part Start
+    *******************************-->
+    <section id="footer">
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2019. All rights <a href="###" title="17sucai">Reserved</a> by <span>张家口教育培训机构</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--*********************************
+       Our footer part end
+    *******************************-->
+
+    <div class="back_to_top">
+        <i class="fa fa-angle-up "></i>
+    </div>
+    <!--*********************************
+        back to top end
+    *******************************-->
+
+
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/venobox.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="js/Carousel.js"></script>
+    <script type="text/javascript" src="js/moment.min.js"></script>
+    <script type="text/javascript" src="js/pb.calendar.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
 </body>
+
 </html>
